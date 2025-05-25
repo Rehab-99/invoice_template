@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="invoice-container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="company-info">
+                <h1>COMPANY</h1>
+                <div class="company-details">
+                    <p>123 Main Street<br>
+                    City, State 12345<br>
+                    Phone: (555) 123-4567<br>
+                    Email: info@company.com<br>
+                    Website: www.company.com</p>
+                </div>
+            </div>
+            
+            <div class="invoice-title">
+                <h2>INVOICE <span class="logo">✱</span></h2>
+            </div>
+            
+            <div class="invoice-details">
+                <p><strong>Invoice Number:</strong> INV-001</p>
+                <p><strong>Invoice Date:</strong> January 15, 2024</p>
+                <p><strong>Due Date:</strong> February 15, 2024</p>
+                <p><strong>Terms:</strong> Net 30</p>
+            </div>
+        </div>
+
+        <!-- Billing Section -->
+        <div class="billing-section">
+            <div class="bill-to">
+                <h3>BILL TO:</h3>
+                <p><strong>Client Company Name</strong><br>
+                456 Business Ave<br>
+                Business City, State 67890<br>
+                Phone: (555) 987-6543<br>
+                Email: client@clientcompany.com</p>
+            </div>
+            
+            <div class="invoice-info">
+                <h3>INVOICE INFO:</h3>
+                <p><strong>Project:</strong> Website Development</p>
+                <p><strong>Project Manager:</strong> John Smith</p>
+                <p><strong>Payment Terms:</strong> Net 30 Days</p>
+                <p><strong>Currency:</strong> USD</p>
+            </div>
+        </div>
+
+        <!-- Items Table -->
+        <table class="items-table">
+            <thead>
+                <tr>
+                    <th>DESCRIPTION</th>
+                    <th>PRICE</th>
+                    <th>QTY</th>
+                    <th>AMOUNT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Website Design & Development</td>
+                    <td>$2,500.00</td>
+                    <td>1</td>
+                    <td>$2,500.00</td>
+                </tr>
+                <tr>
+                    <td>Content Management System Setup</td>
+                    <td>$800.00</td>
+                    <td>1</td>
+                    <td>$800.00</td>
+                </tr>
+                <tr>
+                    <td>SEO Optimization</td>
+                    <td>$600.00</td>
+                    <td>1</td>
+                    <td>$600.00</td>
+                </tr>
+                <tr>
+                    <td>Mobile Responsive Design</td>
+                    <td>$400.00</td>
+                    <td>1</td>
+                    <td>$400.00</td>
+                </tr>
+                <tr>
+                    <td>Testing & Quality Assurance</td>
+                    <td>$300.00</td>
+                    <td>1</td>
+                    <td>$300.00</td>
+                </tr>
+                <tr>
+                    <td>Training & Documentation</td>
+                    <td>$200.00</td>
+                    <td>1</td>
+                    <td>$200.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Totals Section -->
+        <div class="totals-section">
+            <div class="totals">
+                <div class="total-row subtotal">
+                    <span>SUBTOTAL:</span>
+                    <span>$4,800.00</span>
+                </div>
+                <div class="total-row">
+                    <span>TAX (8.5%):</span>
+                    <span>$408.00</span>
+                </div>
+                <div class="total-row grand-total">
+                    <span>GRAND TOTAL:</span>
+                    <span>$5,208.00</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer-section">
+            <div class="terms">
+                <h4>TERMS & CONDITIONS</h4>
+                <p>Payment is due within 30 days of invoice date. Late payments may be subject to a 1.5% monthly service charge. All work performed is subject to our standard terms and conditions. Please remit payment to the address listed above.</p>
+            </div>
+            
+            <div class="payment-methods">
+                <h4>PAYMENT METHODS</h4>
+                <p>We accept payment by check, bank transfer, or credit card. For credit card payments, please contact us for secure payment processing. Make checks payable to Company Name.</p>
+                
+                <div class="signature-section">
+                    <div class="signature-line"></div>
+                    <p class="signature-text">Authorized Signature</p>
+                </div>
+            </div>
+            
+            <div class="decorative-dots"></div>
+        </div>
+    </div>
+</body>
+</html>
